@@ -1,0 +1,24 @@
+kind: TaskDialog
+modelDisplayName: Send Service Quotation
+modelDescription: This operation sends an email message with price quotation and service analysis
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: To
+    inputSettings: {}
+
+  - kind: AutomaticTaskInput
+    propertyName: Subject
+    entity: StringPrebuiltEntity
+
+outputs:
+  - propertyName: Response
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: Default_carInspectionEmailAssistant.shared_office365.shared-office365-0d940fa9-9902-4277-bb5b-259c9c566896
+  connectionProperties:
+    mode: Invoker
+
+  operationId: SendEmailV2
+
+outputMode: Specific

@@ -1,0 +1,12 @@
+<botcomponent schemaname="Default_carInspectionEmailAssistant.component.PriceChart.docx_PGd">
+  <componenttype>14</componenttype>
+  <description>This knowledge source searches information contained in Price Chart.docx</description>
+  <filedata mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document">Price%20Chart.docx</filedata>
+  <iscustomizable>0</iscustomizable>
+  <name>Price Chart.docx</name>
+  <parentbotid>
+    <schemaname>Default_carInspectionEmailAssistant</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

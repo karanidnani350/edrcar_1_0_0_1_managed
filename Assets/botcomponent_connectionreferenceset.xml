@@ -1,0 +1,5 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="Default_carInspectionEmailAssistant.component.Office365Outlook-SendanemailV2" connectionreferenceid.connectionreferencelogicalname="Default_carInspectionEmailAssistant.shared_office365.shared-office365-0d940fa9-9902-4277-bb5b-259c9c566896">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

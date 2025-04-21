@@ -1,0 +1,9 @@
+kind: ExternalTriggerConfiguration
+externalTriggerSource:
+  kind: WorkflowExternalTrigger
+  flowId: 2f54f423-4208-f011-bae3-000d3af22ba6
+
+extensionData:
+  flowName: 0badfe8c-df8e-27d2-dd27-bd01ee7a5dfb
+  flowUrl: /providers/Microsoft.ProcessSimple/environments/Default-d8bb57b3-0677-4988-814b-519f7c1735bf/flows/0badfe8c-df8e-27d2-dd27-bd01ee7a5dfb
+  triggerConnectionType: Microsoft Forms

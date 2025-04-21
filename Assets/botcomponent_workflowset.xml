@@ -1,0 +1,5 @@
+<botcomponent_workflowset>
+  <botcomponent_workflow botcomponentid.schemaname="Default_carInspectionEmailAssistant.component.Whenanewresponseissubmitted_M_HYcHypHZgCeXj8s5SOe" workflowid.workflowid="2f54f423-4208-f011-bae3-000d3af22ba6">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+</botcomponent_workflowset>

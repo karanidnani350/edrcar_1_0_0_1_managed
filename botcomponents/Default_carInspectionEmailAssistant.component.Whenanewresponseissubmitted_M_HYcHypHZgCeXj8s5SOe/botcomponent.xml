@@ -1,0 +1,12 @@
+<botcomponent schemaname="Default_carInspectionEmailAssistant.component.Whenanewresponseissubmitted_M_HYcHypHZgCeXj8s5SOe">
+  <componenttype>17</componenttype>
+  <description>Trigger your agent with certain message upon event: When a new response is submitted.</description>
+  <iconurl>https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1686/1.0.1686.3695/microsoftforms/icon.png</iconurl>
+  <iscustomizable>0</iscustomizable>
+  <name>When a new response is submitted</name>
+  <parentbotid>
+    <schemaname>Default_carInspectionEmailAssistant</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

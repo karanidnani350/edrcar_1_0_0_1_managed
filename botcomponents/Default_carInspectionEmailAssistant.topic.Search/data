@@ -1,0 +1,34 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnUnknownIntent
+  id: main
+  priority: -1
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: search-content
+      variable: Topic.Answer
+      userInput: =System.Activity.Text
+      moderationLevel: High
+      publicDataSource: {}
+      sharePointSearchDataSource: {}
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: SearchSpecificFiles
+          files:
+            - Default_carInspectionEmailAssistant.component.Questionaire.docx_GrV
+            - Default_carInspectionEmailAssistant.component.CostofPart.docx_BMs
+            - Default_carInspectionEmailAssistant.component.PossibleIssues.docx_qnA
+            - Default_carInspectionEmailAssistant.component.PriceChart.docx_PGd
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+
+    - kind: ConditionGroup
+      id: has-answer-conditions
+      conditions:
+        - id: has-answer
+          condition: =!IsBlank(Topic.Answer)
+          actions:
+            - kind: EndDialog
+              id: end-topic
+              clearTopicQueue: true
